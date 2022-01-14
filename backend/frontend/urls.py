@@ -7,8 +7,7 @@ urlpatterns = [
     path('attack/', Attack_data_count),
     path('attacker/', attacker_table_list),
     path('attacker2/', Attack_data2_list),
-    path('query/', attack_data3_list),
-    path('attack2/', data_count),
+    path('query/', attack_data3_list)
 ]
 
 
