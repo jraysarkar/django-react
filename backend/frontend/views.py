@@ -31,7 +31,7 @@ def Attack_data_count(request):
             finalresult['attack_threat_class'].append(i.get('attack_threat_class'))
         return JsonResponse(finalresult, safe= False)
 
-    # elif request.method == 'GET':
+    #elif request.method == 'GET': 
     #     data = JSONParser().parse(request)
     #     serializer = Attack_dataSerializer(data=data)
 

@@ -84,7 +84,7 @@ const ChartjsHorizontalBarChart = ({ tooltipShadow, gridLineColor, labelColor, i
       }
     },
     data = {
-      // labels: ['Washington DC', 'London', 'New York', 'Delhi', 'Hong Kong', 'Shanghai', 'New Jersey'],
+      // labels: ['Washington DC', 'Lonsdsdon', 'New York', 'Delhi', 'Hong Kong', 'Shanghai', 'New Jersey'],
       labels: labelsData,
       datasets: [
         {

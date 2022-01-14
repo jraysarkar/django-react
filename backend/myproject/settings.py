@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
          'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': 'test',
+       'NAME': 'zerohack_client1_aws_platform',
        'USER': 'postgres',
-       'PASSWORD': 'admin@Whizhack',
+       'PASSWORD': '"admin@Zerohack"',
        'HOST': '3.210.183.86',
-       'PORT': '8080',
+       'PORT': '3141',
        'OPTIONS':{
            'isolation_level': psycopg2.extensions.ISOLATION_LEVEL_SERIALIZABLE,
        }
